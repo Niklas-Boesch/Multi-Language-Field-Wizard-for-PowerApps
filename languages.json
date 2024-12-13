@@ -55,6 +55,11 @@
     "fieldlabel": "Dutch - Netherlands"
   },
   {
+    "languageCode": "en-us",
+    "code": 1033,
+    "fieldlabel": "English - United States"
+  },
+  {
     "languageCode": "et-ee",
     "code": 1061,
     "fieldlabel": "Estonian - Estonia"
