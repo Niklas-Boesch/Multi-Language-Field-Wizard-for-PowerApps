@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="notification" class="hidden">
+    <span id="notification-icon">&#10004;</span> <!-- Checkmark -->
+    <span id="notification-message">Settings saved, please refresh your page!</span>
+  </div>
+  <div id="settings-popup">
+
+      <label for="language-select">Select Languages:</label>
+      <div>
+        <button id="show-selected-btn" class="toggle-btn active">Show Selected</button>
+        <button id="show-unselected-btn" class="toggle-btn active">Show Unselected</button>
+      </div>
+      <input type="text" id="search-box" placeholder="Search languages..." />
+      <div id="language-select">
+      </div>
+      <button id="save-settings">Save Settings</button>
+    </div>
+    <script src="popup.js"></script>
+</body>      
+</html>

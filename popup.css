@@ -1,0 +1,204 @@
+/* Modern Notification Styles */
+#notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(145deg, #6aef72, #2a8f43);  /* Gradient background for depth */
+  color: white;
+  padding: 15px 30px;  /* Increased padding for balance */
+  border-radius: 8px;   /* Rounded corners for a softer look */
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;  /* Modern sans-serif font */
+  font-weight: 500;  /* Slightly bolder text */
+  display: none;      /* Initially hidden */
+  opacity: 0;         /* Start with opacity 0 for fade-in effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: opacity 0.4s ease, transform 0.3s ease-in-out; /* Smooth fade and slight slide-in */
+  max-width: 300px;    /* Increased max width to allow for more content */
+  width: 80%;         /* Allow it to fill up to max-width */
+  word-wrap: break-word; /* Ensure the text wraps within the container if needed */
+}
+
+#notification.show {
+  display: block;
+  opacity: 1;             /* Fade in */
+  transform: translateX(-50%) translateY(10px); /* Subtle slide-up effect */
+}
+
+#notification-icon {
+  margin-right: 10px;  /* Space between icon and message */
+  font-size: 20px;     /* Make the icon a little larger */
+  vertical-align: middle; /* Align the icon with the text */
+}
+
+#notification-message {
+  vertical-align: middle; /* Align the text with the icon */
+}
+
+#search-box {
+  width: auto;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#settings-popup {
+  width: 300px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;       /* Stack elements vertically */
+  height: 400px;                /* Set a fixed height for the container */
+}
+
+#language-select {
+  flex-grow: 1;                 /* Allows the language list to grow and take available space */
+  overflow-y: auto;             /* Makes the language list scrollable */
+  max-height: 300px;            /* Set a max height so the list can scroll */
+  margin-bottom: 20px;          /* Space between the list and the button */
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Styling the scrollbar */
+#language-select::-webkit-scrollbar {
+  width: 10px;                   /* Set the width of the scrollbar */
+  height: 8px;                  /* For horizontal scrollbar (if needed) */
+}
+
+#language-select::-webkit-scrollbar-thumb {
+  background-color: #0078D4;    /* Blue color for the thumb */
+  border-radius: 8px;           /* Rounded corners for the thumb */
+  border: 2px solid #f1f1f1;    /* Light border to make it stand out a bit */
+}
+
+#language-select::-webkit-scrollbar-thumb:hover {
+  background-color: #005a8d;    /* Darker blue when hovered */
+}
+
+#language-select::-webkit-scrollbar-track {
+  background-color: #f1f1f1;    /* Light background for the scrollbar track */
+  border-radius: 8px;           /* Rounded corners for the track */
+}
+
+#language-select::-webkit-scrollbar-track:hover {
+  background-color: #e0e0e0;    /* Slightly darker background for track on hover */
+}
+
+#language-select::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;    /* Background color for the bottom-right corner */
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#save-settings {
+  width: 100%;
+  padding: 10px;
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: auto;             /* Push the button to the bottom of the container */
+}
+
+#save-settings:hover {
+  background-color: #005a8d;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 5px;
+}
+
+.toggle-btn.active {
+  background-color: #0078D4;
+  color: white;
+}
+
+.toggle-btn:hover {
+  background-color: #0078D4;
+  color: white;
+}
+
+.toggle-btn:focus {
+  outline: none;
+}
+
+
+.language-option {
+  display: block;                /* Use block display for the container */
+  width: 100%;                   /* Ensure the container spans the full width */
+  height: 35px;                  /* Defines the height of the parent container */
+  box-sizing: border-box;        /* Includes padding in width calculation */
+  padding: 8px 8px;              /* Adjusted padding */
+  margin: 4px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: relative;            /* Make it relative for positioning child elements */
+}
+
+.language-option:hover {
+  background-color: #ddd;
+}
+
+.language-label {
+  display: inline-block;         /* Make the label inline-block for natural flow */
+  vertical-align: middle;        /* Vertically aligns the label with bubble */
+  overflow: hidden;              /* Prevents overflow */
+  text-overflow: ellipsis;       /* Adds ellipsis if label is too long */
+  white-space: nowrap;           /* Prevents text from wrapping */
+  flex-grow: 1;                  /* Ensures label takes available space */
+  margin-right: 8px;             /* Space between label and bubble */
+}
+
+.bubble {
+  width: 18px;                   /* Fixed width */
+  height: 18px;                  /* Fixed height */
+  border-radius: 50%;            /* Ensures it's a circle */
+  background-color: #0078D4;     /* Blue color */
+  transition: background-color 0.2s ease;
+  vertical-align: middle;        /* Vertically aligns the bubble with the label */
+  margin-left: auto;             /* Pushes bubble to the right end of the container */
+  float: right;
+}
+
+.language-option .bubble.selected {
+  background-color: #0dc22b;     /* Green for selected bubble */
+}
+
+.language-option.selected {
+  background-color: #d1ecf1;     /* Lighter background when selected */
+}
+
+  

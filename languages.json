@@ -1,0 +1,222 @@
+[
+  {
+    "languageCode": "ar-sa",
+    "code": 1025,
+    "fieldlabel": "Arabic - Saudi Arabia"
+  },
+  {
+    "languageCode": "eu-es",
+    "code": 1069,
+    "fieldlabel": "Basque (Basque)"
+  },
+  {
+    "languageCode": "bg-bg",
+    "code": 1026,
+    "fieldlabel": "Bulgarian - Bulgaria"
+  },
+  {
+    "languageCode": "ca-es",
+    "code": 1027,
+    "fieldlabel": "Catalan - Spain"
+  },
+  {
+    "languageCode": "zh-cn",
+    "code": 2052,
+    "fieldlabel": "Chinese (Simplified) - China"
+  },
+  {
+    "languageCode": "zh-tw",
+    "code": 1028,
+    "fieldlabel": "Chinese (Taiwan)"
+  },
+  {
+    "languageCode": "zh-hk",
+    "code": 3076,
+    "fieldlabel": "Chinese (Traditional) - Hong Kong SAR"
+  },
+  {
+    "languageCode": "hr-hr",
+    "code": 1050,
+    "fieldlabel": "Croatian - Croatia"
+  },
+  {
+    "languageCode": "cs-cz",
+    "code": 1029,
+    "fieldlabel": "Czech - Czech Republic"
+  },
+  {
+    "languageCode": "da-dk",
+    "code": 1030,
+    "fieldlabel": "Danish - Denmark"
+  },
+  {
+    "languageCode": "nl-nl",
+    "code": 1043,
+    "fieldlabel": "Dutch - Netherlands"
+  },
+  {
+    "languageCode": "et-ee",
+    "code": 1061,
+    "fieldlabel": "Estonian - Estonia"
+  },
+  {
+    "languageCode": "fi-fi",
+    "code": 1035,
+    "fieldlabel": "Finnish - Finland"
+  },
+  {
+    "languageCode": "fr-fr",
+    "code": 1036,
+    "fieldlabel": "French - France"
+  },
+  {
+    "languageCode": "gl-es",
+    "code": 1110,
+    "fieldlabel": "Galician - Spain"
+  },
+  {
+    "languageCode": "de-de",
+    "code": 1031,
+    "fieldlabel": "German - Germany"
+  },
+  {
+    "languageCode": "el-gr",
+    "code": 1032,
+    "fieldlabel": "Greek - Greece"
+  },
+  {
+    "languageCode": "he-il",
+    "code": 1037,
+    "fieldlabel": "Hebrew - Israel"
+  },
+  {
+    "languageCode": "hi-in",
+    "code": 1081,
+    "fieldlabel": "Hindi - India"
+  },
+  {
+    "languageCode": "hu-hu",
+    "code": 1038,
+    "fieldlabel": "Hungarian - Hungary"
+  },
+  {
+    "languageCode": "id-id",
+    "code": 1057,
+    "fieldlabel": "Indonesian - Indonesia"
+  },
+  {
+    "languageCode": "it-it",
+    "code": 1040,
+    "fieldlabel": "Italian - Italy"
+  },
+  {
+    "languageCode": "ja-jp",
+    "code": 1041,
+    "fieldlabel": "Japanese - Japan"
+  },
+  {
+    "languageCode": "kk-kz",
+    "code": 1087,
+    "fieldlabel": "Kazakh - Kazakhstan"
+  },
+  {
+    "languageCode": "ko-kr",
+    "code": 1042,
+    "fieldlabel": "Korean - Korea"
+  },
+  {
+    "languageCode": "lv-lv",
+    "code": 1062,
+    "fieldlabel": "Latvian"
+  },
+  {
+    "languageCode": "lt-lt",
+    "code": 1063,
+    "fieldlabel": "Lithuanian - Lithuania"
+  },
+  {
+    "languageCode": "ms-my",
+    "code": 1086,
+    "fieldlabel": "Malay (Latin) - Malaysia"
+  },
+  {
+    "languageCode": "nb-no",
+    "code": 1044,
+    "fieldlabel": "Norwegian Bokmål - Norway"
+  },
+  {
+    "languageCode": "pl-pl",
+    "code": 1045,
+    "fieldlabel": "Polish - Poland"
+  },
+  {
+    "languageCode": "pt-br",
+    "code": 1046,
+    "fieldlabel": "Portuguese - Brazil"
+  },
+  {
+    "languageCode": "pt-pt",
+    "code": 2070,
+    "fieldlabel": "Portuguese - Portugal"
+  },
+  {
+    "languageCode": "ro-ro",
+    "code": 1048,
+    "fieldlabel": "Romanian - Romania"
+  },
+  {
+    "languageCode": "ru-ru",
+    "code": 1049,
+    "fieldlabel": "Russian - Russia"
+  },
+  {
+    "languageCode": "sr-cyrl-cs",
+    "code": 3098,
+    "fieldlabel": "Serbian (Cyrillic) - Serbia and Montenegro"
+  },
+  {
+    "languageCode": "sr-latn-cs",
+    "code": 2074,
+    "fieldlabel": "Serbian (Latin) - Serbia and Montenegro"
+  },
+  {
+    "languageCode": "sk-sk",
+    "code": 1051,
+    "fieldlabel": "Slovak - Slovakia"
+  },
+  {
+    "languageCode": "sl-si",
+    "code": 1060,
+    "fieldlabel": "Slovenian - Slovenia"
+  },
+  {
+    "languageCode": "es-es",
+    "code": 3082,
+    "fieldlabel": "Spanish - Spain"
+  },
+  {
+    "languageCode": "sv-se",
+    "code": 1053,
+    "fieldlabel": "Swedish - Sweden"
+  },
+  {
+    "languageCode": "th-th",
+    "code": 1054,
+    "fieldlabel": "Thai - Thailand"
+  },
+  {
+    "languageCode": "tr-tr",
+    "code": 1055,
+    "fieldlabel": "Turkish - Turkey"
+  },
+  {
+    "languageCode": "uk-ua",
+    "code": 1058,
+    "fieldlabel": "Ukrainian - Ukraine"
+  },
+  {
+    "languageCode": "vi-vn",
+    "code": 1066,
+    "fieldlabel": "Vietnamese - Vietnam"
+  }
+]
