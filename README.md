@@ -15,7 +15,6 @@ Easily manage multi-language fields in **PowerApps** and **Dynamics 365** direct
 4. **Save and Done**: The localized labels will be added to the field directly.
 
 ## Warnings
-The add-in requires the following permissions:
 - The add-in does not check the installed languages in your environment. Inputs for any languages that are not enabled will be ignored.
 - Duplicate inputs for your base language will be ignored.
 - The add-in currently only works in the Table-Columns section in the maker portal. It does not work when creating a column from a form.
