@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Multi-Language Field Wizard for PowerApps",
+    "name": "Multi-Language Field Wizard for Power Apps",
     "version": "0.9.0.3",
-    "description": "This add-in helps manage multi-language support during column/field creation in PowerApps and Dynamics 365.",
+    "description": "This add-in helps manage multi-language support during column/field creation in Power Apps and Dynamics 365.",
     "permissions": ["scripting", "storage", "webNavigation"],
     "host_permissions": ["https://make.powerapps.com/*", "https://make.preview.powerapps.com/*"],
     "content_security_policy": {
